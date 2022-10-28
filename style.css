@@ -1,11 +1,28 @@
+
+
 body{
     background: white;
     
     font-family:  Optima, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
 }
-p{
-   background-color: rgb(252, 255, 82);
-   border: 3px solid black;
-
+/*
+h3{
+    background-color: rgb(253, 255, 121);
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
 }
+*/
+/* IMAGE BLOCK */
+#main {
+    width: 600px;
+    height: 600px;
+    border: 0px solid #c3c3c3;
+    display: flex;
+    justify-content: center;
+  }
+
+  #images {
+    align-self: center;
+  }
