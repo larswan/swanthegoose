@@ -13,8 +13,10 @@ function toDuck(){
     pop();
     document.getElementById("picture").src=`https://thumbs.dreamstime.com/b/male-mallard-duck-white-background-work-paths-117716860.jpg`;
     
-    let duckNum = Math.floor(Math.random() * 6) + 1
-    setTimeout( function(){if(duckNum <3){
+    let duckNum = Math.floor(Math.random() * 5) + 1
+    setTimeout( function(){
+       // debugger;
+        if(duckNum <3){
         huhSound();
     }
     else if(duckNum < 5){
