@@ -1,28 +1,36 @@
-
-
 body{
     background: white;
     
     font-family:  Optima, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
 }
-/*
+
 h3{
     background-color: rgb(253, 255, 121);
     border-style: solid;
     border-color: black;
     border-width: 3px;
 }
-*/
+
 /* IMAGE BLOCK */
 #picDiv {
-    width: 600px;
-    height: 600px;
-    border: 0px solid #c3c3c3;
-    display: flex;
-    justify-content: center;
+  width: 400px;
+  height: 400px;
+  border: 6px solid black;
+    
+    /* marginBottom: "10px";
+    borderRadius: "8px"; */
+    /* display: flex; */
+    /* justify-content: center; */
   }
 
-  #images {
-    align-self: center;
+  #picture {
+    max-height: 400px;
+    object-fit: scale-down
   }
+/* 
+      <form id="create-task-form" action="#" method="POST">
+      <label for="new-task-description">Task description:</label>
+      <input type="text" id="new-task-description" name="new-task-description" placeholder="description">
+      <input type="submit" value="Create New Task">
+    </form> */
